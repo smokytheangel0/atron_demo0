@@ -1,2 +1,8 @@
 # atron_demo0
-the app we've all been waiting for
+
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
