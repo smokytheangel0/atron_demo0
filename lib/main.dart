@@ -1,18 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; 
 //this is the view root for case managers
-import 'spacing/leader/leader_view.dart';
+import 'spacing/leader/leader_view.dart' as leader;
 //this is the view root for supervisory volunteers
-import 'matron/matron_view.dart';
+import 'matron/matron_view.dart' as matron;
 //this is the view root for employers
-import 'nation/nation_view.dart';
+import 'nation/nation_view.dart' as nation;
 //this is the view root for financial contributors
-import 'patron/patron_view.dart';
+import 'patron/patron_view.dart' as patron;
 //this is the view root for students
-import 'spacing/student/student_view.dart';
+import 'spacing/student/student_view.dart' as student;
 //this is the view for site leaders and NGO architect
-import 'spacing/architect/architect_view.dart';
-//this is the root file for common objects and functionality
-import 'common/mod.dart';
+import 'spacing/chief/chief_view.dart' as chief;
+//this is the root file for functionality
+import 'common/functions.dart' as functions;
+//this is the file for objects (including widgets)
+import 'common/objects.dart' as objects;
+
 
 void main() => runApp(new MyApp());
 
