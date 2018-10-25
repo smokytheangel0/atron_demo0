@@ -26,6 +26,7 @@ import 'common/objects.dart' as objects;
 void main() {
   runApp(new MaterialApp(
     home: new PageFrame0(),
+    /*
     routes: <String, WidgetBuilder> {
       '/LeaderView': (BuildContext context) => new leader.LeaderView(),
       '/MatronView': (BuildContext context) => new matron.MatronView(),
@@ -34,6 +35,7 @@ void main() {
       '/StudentView': (BuildContext context) => new student.StudentView(),
       '/ChiefView': (BuildContext context) => new chief.ChiefView(),
     }
+  */
   ));
 }
 
@@ -81,7 +83,7 @@ with SingleTickerProviderStateMixin {
                 handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
                 child: SliverAppBar(
                   backgroundColor: const Color(0xff000000),
-                  title: Text("*atron, come on in"),
+                  title: Text("*atron"),
                   pinned: true,
                   expandedHeight: 256.0,
                   forceElevated: innerBoxIsScrolled,
